@@ -1,0 +1,5 @@
+return exp(-(SQR(x0 - 0.35) + SQR(x1 - 0.45)) / 0.01);
+Grid_Info g = { 50, 50, 1.0, 1.0, -1, -1 };
+const double T = 5*g.L0;
+const int K = 5*g.Ns0;
+const double tau = T / (2*K);

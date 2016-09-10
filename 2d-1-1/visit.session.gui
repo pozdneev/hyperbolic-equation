@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Object name="VisIt">
+    <Field name="Version" type="string">2.3.2</Field>
+    <Object name="GUI">
+        <Object name="FileServerList">
+            <Field name="path" type="string">/home/pozdneev/Devel/hyperbolic/2d-1-1</Field>
+            <Field name="filter" type="string">*</Field>
+            <Field name="useCurrentDir" type="bool">false</Field>
+            <Field name="automaticFileGrouping" type="bool">true</Field>
+            <Field name="smartFileGrouping" type="bool">true</Field>
+            <Object name="recentpaths">
+                <Field name="localhost" type="stringVector">"/home/pozdneev/Software/visit/bin" "/home/pozdneev" "/home/pozdneev/Devel" "/home/pozdneev/Devel/hyperbolic" "/home/pozdneev/Devel/hyperbolic/2d-1-1" </Field>
+            </Object>
+        </Object>
+        <Object name="AppearanceAttributes">
+            <Field name="useSystemDefault" type="bool">true</Field>
+            <Field name="background" type="string">#c0c0c0</Field>
+            <Field name="foreground" type="string">#000000</Field>
+            <Field name="fontName" type="string">Helvetica,12,-1,5,50,0,0,0,0,0</Field>
+            <Field name="style" type="string">motif</Field>
+            <Field name="orientation" type="int">0</Field>
+            <Field name="defaultForeground" type="string">#1b1918</Field>
+            <Field name="defaultBackground" type="string">#d5d1cf</Field>
+            <Field name="defaultFontName" type="string">"Sans Serif,9,-1,5,50,0,0,0,0,0"</Field>
+            <Field name="defaultStyle" type="string">plastique</Field>
+            <Field name="defaultOrientation" type="int">0</Field>
+        </Object>
+        <Object name="Appearance">
+            <Field name="x" type="int">1015</Field>
+            <Field name="y" type="int">46</Field>
+            <Field name="width" type="int">265</Field>
+            <Field name="height" type="int">251</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Field name="postWhenShown" type="bool">false</Field>
+        <Object name="Color tables">
+            <Field name="x" type="int">457</Field>
+            <Field name="y" type="int">127</Field>
+            <Field name="width" type="int">367</Field>
+            <Field name="height" type="int">664</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="currentColorTable" type="string">hot</Field>
+        </Object>
+        <Object name="Information">
+            <Field name="x" type="int">694</Field>
+            <Field name="y" type="int">342</Field>
+            <Field name="width" type="int">528</Field>
+            <Field name="height" type="int">303</Field>
+            <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Output">
+            <Field name="x" type="int">457</Field>
+            <Field name="y" type="int">481</Field>
+            <Field name="width" type="int">312</Field>
+            <Field name="height" type="int">256</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Preferences">
+            <Field name="x" type="int">457</Field>
+            <Field name="y" type="int">82</Field>
+            <Field name="width" type="int">401</Field>
+            <Field name="height" type="int">709</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Subset">
+            <Field name="x" type="int">714</Field>
+            <Field name="y" type="int">386</Field>
+            <Field name="width" type="int">560</Field>
+            <Field name="height" type="int">355</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="MainWin">
+            <Field name="x" type="int">0</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">445</Field>
+            <Field name="height" type="int">745</Field>
+            <Field name="SPLITTER_VALUES_V2" type="floatVector">0 1 </Field>
+        </Object>
+        <Object name="Boundary plot attributes">
+            <Field name="x" type="int">888</Field>
+            <Field name="y" type="int">46</Field>
+            <Field name="width" type="int">392</Field>
+            <Field name="height" type="int">689</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Contour plot attributes">
+            <Field name="x" type="int">823</Field>
+            <Field name="y" type="int">46</Field>
+            <Field name="width" type="int">457</Field>
+            <Field name="height" type="int">596</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Pseudocolor plot attributes">
+            <Field name="x" type="int">814</Field>
+            <Field name="y" type="int">74</Field>
+            <Field name="width" type="int">457</Field>
+            <Field name="height" type="int">648</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Elevate operator attributes">
+            <Field name="x" type="int">908</Field>
+            <Field name="y" type="int">374</Field>
+            <Field name="width" type="int">366</Field>
+            <Field name="height" type="int">371</Field>
+            <Field name="visible" type="bool">true</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Field name="plotDatabases" type="stringVector">"localhost:/home/pozdneev/Devel/hyperbolic/2d-1-1/*.silo database" </Field>
+        <Object name="TimeFormat">
+            <Field name="displayMode" type="string">Cycles</Field>
+            <Field name="precision" type="int">5</Field>
+        </Object>
+        <Field name="showSelectedFiles" type="bool">false</Field>
+        <Field name="allowFileSelectionChange" type="bool">true</Field>
+        <Field name="enableWarningMessagePopups" type="bool">true</Field>
+    </Object>
+</Object>

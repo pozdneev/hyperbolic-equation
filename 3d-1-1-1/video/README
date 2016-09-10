@@ -1,0 +1,5 @@
+g = { 25, 25, 25, 1.0, 1.0, 1.0, -1, -1, -1 };
+const double T = 4*g.L0;
+const int K = 4*g.Ns0;
+const double tau = T / (2*K);   // TODO: what is stability condition?
+return exp(-(SQR(x0 - 0.35) + SQR(x1 - 0.25) + SQR(x2 - 0.15)) / 0.01);

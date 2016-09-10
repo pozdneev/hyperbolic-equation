@@ -1,0 +1,13 @@
+Type (G=Graph, C=Contour): G
+
+filename(s)
+z_Ch.bin
+
+graph title: z_Ch
+
+variable names
+0 x
+1 z_Ch
+
+ix iy
+0 1
