@@ -10,4 +10,4 @@ You need to have `libsilo` installed in your system. Specify the path to it by s
 
 The binaries produce a sequence of silo-files. You can visualize them with the [VisIt](http://visit.llnl.gov) software. Modify the paths in `visit.session*` files accordingly. Some video files obtained from these calculations are available on [YouTube](https://www.youtube.com/playlist?list=PLDudW2rTDAfoB61KTFHjlcTeHj7-3R0gR).
 
-The code was prepared in 2009 for the students studying HPC at the [Faculty of Computational Mathematics and Cybernetics](http://cmc.msu.ru) at [Lomonosov Moscow State University](http://msu.ru).
+The code was prepared in 2011 for the students studying HPC at the [Faculty of Computational Mathematics and Cybernetics](http://cmc.msu.ru) at [Lomonosov Moscow State University](http://msu.ru).
